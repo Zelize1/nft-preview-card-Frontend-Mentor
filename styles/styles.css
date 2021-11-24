@@ -1,0 +1,125 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    width: 350px;
+    height: 600px;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 25px;
+    border-radius: 10px;
+    font-family: 'Outfit', sans-serif;
+    margin-top: 10%;
+    box-shadow: 1px 27px 52px 3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 27px 52px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 27px 52px 3px rgba(0,0,0,0.75);
+}
+
+.card #equilibrium {
+    width: 350px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    transition: .3s ease;
+}
+
+.card .container .overlay {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    display: block;
+    border-radius: 13px;
+    background-color: hsl(178, 100%, 50%);
+}
+
+.card .container .overlay img {
+    margin-top: 45%;
+    margin-left: 45%;
+}
+
+.card .container #equilibrium:hover {
+    opacity: 0.58;
+    transition: .5s ease;
+}
+
+.card h1 {
+    color: white;
+    font-weight: 600;
+}
+
+.card h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.card p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.card .comps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .comps #price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+
+.card .comps #price #eth {
+    margin-left: 5px;
+}
+
+.card .comps #duration {
+    color: hsl(215, 51%, 70%);
+}
+
+.card .creation #avatar {
+    vertical-align: middle;
+    width: 40px;
+    height: auto;
+    border-style: groove;
+    border-radius: 100px;
+    border-width: 1px;
+}
+
+.card .creation #creation-name {
+    margin-left: 3%;
+    color: white;
+    font-weight: 300;
+}
+
+.card .creation #creation-of {
+    color: hsl(215, 51%, 70%);
+}
+
+.card #line {
+    background-color: hsl(215, 32%, 27%);
+    width: 350px;
+    display: block;
+    height: 2px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card .creation #name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    color: white;
+}
+
+.attribution a {
+    color:hsl(178, 100%, 50%);
+    text-decoration: none;
+}
