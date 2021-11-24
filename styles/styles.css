@@ -123,3 +123,19 @@ body {
     color:hsl(178, 100%, 50%);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 480px) {
+
+    .card, .card #equilibrium, .card .container .overlay, .card #line {
+        width: 300px;
+    }
+
+    .card .container .overlay {
+        height: 300px;
+        border-radius: 15px;
+    }
+
+    .card {
+        height: 540px;
+    }
+}
